@@ -1,9 +1,9 @@
-module.exports = {
+export default {
     apps: [
       {
         name: 'pm2test',
         script: './server.js',
-        instances: 'max', 
+        instances: 'max',
         exec_mode: 'cluster',
         watch: false,
         env: {
